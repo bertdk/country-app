@@ -1,0 +1,23 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 8px;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+}
+
+h1 {
+  color: #333;
+}
+
+code {
+  background-color: #f8f8f8;
+  padding: 8px;
+  display: block;
+  overflow-x: auto;
+  border-radius: 4px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  white-space: pre-wrap; /* Preserve line breaks and spaces */
+}

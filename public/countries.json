@@ -1,0 +1,122 @@
+[
+  {
+    "country": "United States",
+    "population": 331002651,
+    "isCapital": false,
+    "city": "New York"
+  },
+  {
+    "country": "United States",
+    "population": 331002651,
+    "isCapital": false,
+    "city": "Los Angeles"
+  },
+  {
+    "country": "United States",
+    "population": 331002651,
+    "isCapital": true,
+    "city": "Washington, D.C."
+  },
+  {
+    "country": "United States",
+    "population": 331002651,
+    "isCapital": false,
+    "city": "Chicago"
+  },
+  {
+    "country": "China",
+    "population": 1444216107,
+    "isCapital": true,
+    "city": "Beijing"
+  },
+  {
+    "country": "China",
+    "population": 1444216107,
+    "isCapital": false,
+    "city": "Shanghai"
+  },
+  {
+    "country": "China",
+    "population": 1444216107,
+    "isCapital": false,
+    "city": "Guangzhou"
+  },
+  {
+    "country": "China",
+    "population": 1444216107,
+    "isCapital": false,
+    "city": "Chengdu"
+  },
+  {
+    "country": "India",
+    "population": 1380004385,
+    "isCapital": true,
+    "city": "New Delhi"
+  },
+  {
+    "country": "India",
+    "population": 1380004385,
+    "isCapital": false,
+    "city": "Mumbai"
+  },
+  {
+    "country": "India",
+    "population": 1380004385,
+    "isCapital": false,
+    "city": "Bangalore"
+  },
+  {
+    "country": "India",
+    "population": 1380004385,
+    "isCapital": false,
+    "city": "Kolkata"
+  },
+  {
+    "country": "Brazil",
+    "population": 212559417,
+    "isCapital": true,
+    "city": "Brasília"
+  },
+  {
+    "country": "Brazil",
+    "population": 212559417,
+    "isCapital": false,
+    "city": "São Paulo"
+  },
+  {
+    "country": "Brazil",
+    "population": 212559417,
+    "isCapital": false,
+    "city": "Rio de Janeiro"
+  },
+  {
+    "country": "Brazil",
+    "population": 212559417,
+    "isCapital": false,
+    "city": "Salvador"
+  },
+  {
+    "country": "Russia",
+    "population": 145912025,
+    "isCapital": true,
+    "city": "Moscow"
+  },
+  {
+    "country": "Russia",
+    "population": 145912025,
+    "isCapital": false,
+    "city": "Saint Petersburg"
+  },
+  {
+    "country": "Russia",
+    "population": 145912025,
+    "isCapital": false,
+    "city": "Novosibirsk"
+  },
+  {
+    "country": "Russia",
+    "population": 145912025,
+    "isCapital": false,
+    "city": "Yekaterinburg"
+  }
+]
