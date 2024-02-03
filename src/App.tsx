@@ -1,8 +1,19 @@
-import { useCountryData } from "./useCountryData";
+import { useCountryData } from "./data/useCountryData";
 import "./App.css";
+import { validateCountryData } from "./data/validateCountryData";
+import { DataError } from "./components/DataError";
 
 function App() {
-  const countriesText = useCountryData();
+  const { data: countriesText, loading } = useCountryData();
+  if (loading) {
+    return <p>Loading...</p>;
+  }
+
+  const validation = validateCountryData(countriesText);
+
+  if (!validation.success) {
+    return <DataError error={validation.error} dataName="country" />;
+  }
 
   return (
     <>
