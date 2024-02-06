@@ -9,5 +9,9 @@ const countrySchema = object({
 
 export const validateCountryData = (data: string) => {
   const dataArraySchema = array(countrySchema);
-  return dataArraySchema.safeParse(data);
+  const validation = dataArraySchema.safeParse(JSON.parse(data));
+  if (!validation.success) {
+    console.error(validation.error);
+  }
+  return validation;
 };

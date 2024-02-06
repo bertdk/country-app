@@ -1,14 +1,14 @@
 import { useState, useEffect } from "react";
 
-export const useCountryData = () => {
-  const [data, setData] = useState("Loading...");
+export const useFetchCountryData = () => {
+  const [data, setData] = useState("");
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch("/countries.json");
-      const jsonData = await response.text();
-      setData(jsonData);
+      const textResponse = await response.text();
+      setData(textResponse);
       setLoading(false);
     };
 

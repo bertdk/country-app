@@ -1,6 +1,11 @@
+import React from "react";
 import { ZodError } from "zod";
+import { CountryData } from "../types/CountryData.type";
 
-export function DataError(props: { error: ZodError; dataName: string }) {
+export function DataError(props: {
+  error: ZodError<CountryData[]>;
+  dataName: string;
+}) {
   console.error(props.error);
   return (
     <>
